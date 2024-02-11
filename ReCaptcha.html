@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReCaptcha</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="margin:0;">
+    <div class="container">
+        <script>
+            let container = document.querySelector(".container");
+            container.style.width = window.innerWidth+"px";
+        </script>
+        <div class="header">
+            <p id="p1">Select all squares with</p>
+            <span id="identifier">Beautiful Woman</span>
+            <p>If there are none, click skip</p>
+        </div>
+
+        <div class="image-container">
+          <img  id="image-identifier"> 
+            <div class="grid">
+                <div class="row1">
+                    <div class="divisor" name="nam" id="1"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="2"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="3"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                </div>
+                <div class="row2">
+                    <div class="divisor" name="nam" id="4"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="5"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="6"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                </div>
+                <div class="row3">
+                    <div class="divisor" name="nam" id="7"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="8"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="9"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                </div>
+                <div class="row4">
+                    <div class="divisor" name="nam" id="10"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="11"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                    <div class="divisor" name="nam" id="12"><img src="/Web Icons/icons8-heart-100.png" class="tik"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="left-section">
+                <img src="/Web Icons/icons8-reload-90.png" id="icon-reload" title="reload">
+                <img src="/Web Icons/icons8-headphones-96.png" id="icon-headphones" title="use audio">
+                <img src="/Web Icons/icons8-information-192.png" id="icon-information" title="information">
+            </div>
+            <div class="right-section">
+                <button id="btnSkip" title="skip">SKIP</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="/ReCaptcha.js"></script>
+</body>
+</html>
